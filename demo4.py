@@ -1,0 +1,27 @@
+list1=[19,54,62,54]
+list1.insert(2,12)
+print(list1)
+del list1[0]
+print(list1)
+list1.remove(62)
+print(list1)
+list1.append(12)
+print(list1)
+list1.append(34)
+list1.append(56)
+print(list1)
+list2=[1,47,58,69]
+list1.extend(list2)
+print(list1)
+list1.insert(1,"*")
+print(list1)
+list1.pop()
+print(list1)
+del list1[0:3]
+print(list1)
+x=list1.pop()
+print(list1)
+print(x)
+list1.clear()
+print(list1)
+print(len(list1))
